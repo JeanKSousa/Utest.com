@@ -97,6 +97,30 @@ public class UserData {
         this.version = version;
     }
 
+    public String getMobil() {
+        return mobil;
+    }
+
+    public void setMobil(String mobil) {
+        this.mobil = mobil;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getSystem() {
+        return system;
+    }
+
+    public void setSystem(String system) {
+        this.system = system;
+    }
+
     private String firstName;
     private String lastName;
     private String email;
@@ -109,4 +133,17 @@ public class UserData {
     private String country;
     private String computer;
     private String version;
+    private String mobil;
+    private String model;
+    private String system;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    private String password;
 }

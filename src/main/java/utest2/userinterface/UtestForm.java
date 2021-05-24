@@ -43,5 +43,34 @@ public class UtestForm {
             .located(By.xpath("//div[@id='web-device']//div[2]//div[2]//div"));
     public static final Target INPUT_VERSION = Target.the("type the version")
             .located(By.xpath("//div[@id='web-device']//div[2]//div[2]//div//input[1]"));
+    public static final Target LANGUAGE_DEVICE = Target.the("select the language")
+            .located(By.xpath("//div[@id='web-device']//div[3]//div[2]//div"));
+    public static final Target INPUT_LANGUAGE_DEVICE = Target.the("type the languaje")
+            .located(By.xpath("//div[@id='web-device']//div[3]//div[2]//div//input[1]"));
+    public static final Target MOBIL = Target.the("select the mobil")
+            .located(By.xpath("//div[@id='mobile-device']//div[1]//div[2]//div"));
+    public static final Target INPUT_MOBIL = Target.the("type the mobil")
+            .located(By.xpath("//div[@id='mobile-device']//div[1]//div[2]//div//input[1]"));
+    public static final Target MODEL = Target.the("select the model")
+            .located(By.xpath("//div[@id='mobile-device']//div[2]//div[2]//div"));
+    public static final Target INPUT_MODEL = Target.the("type the model")
+            .located(By.xpath("//div[@id='mobile-device']//div[2]//div[2]//div//input[1]"));
+    public static final Target SYSTEM = Target.the("select the system")
+            .located(By.xpath("//div[@id='mobile-device']//div[3]//div[2]//div"));
+    public static final Target INPUT_SYSTEM = Target.the("type the system")
+            .located(By.xpath("//div[@id='mobile-device']//div[3]//div[2]//div//input[1]"));
+    public static final Target NEXT3 = Target.the("button that shows us the next step")
+            .located(By.xpath("//div[@class='pull-right next-step']//a"));
+
+    public static final Target IMPUT_PASSWORD = Target.the("type the password")
+            .located(By.id("password"));
+    public static final Target IMPUT_PASSWORD2 = Target.the("type the password again")
+            .located(By.id("confirmPassword"));
+    public static final Target CHECK_STAY = Target.the("check 1")
+            .located(By.xpath("//div[@class='signup-consent__text--highlight']"));
+    public static final Target CHECK_TERMS = Target.the("check 1")
+            .located(By.id("termOfUse"));
+    public static final Target CHECK_PRIVACY = Target.the("check 2")
+            .located(By.id("privacySetting"));
 }
 
